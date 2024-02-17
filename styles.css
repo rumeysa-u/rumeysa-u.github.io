@@ -14,7 +14,7 @@
     background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity /
     background-blend-mode: overlay; /* Blend the background color with the image /
     */
-    background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+    background-color: rgba(100, 60, 60, 0.5); /* White with 50% opacity */
     background-blend-mode: lighten; /* Blend the background color with the image using lighten mode */
     background-size: cover; /* Cover the entire body with the background image */
     background-position: center; /* Center the background image */
@@ -22,24 +22,147 @@
   }
 
   .navbar{
-    background-color: #ca2017;
+    margin-top: 10px;
+    padding: 10px 0 10px 0;
+    background-color: #0e0202d3;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .navbar-brand {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     font-weight: bold;
+    color: #434040;
+  }
+
+  .highlight-navbar-brand {
     color: #8ebfea;
+  }
+
+  .navbar-nav li {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 10px 0 10px;
   }
 
   .navbar-nav li a {
-    color: #8ebfea;
+    color: #9da23d;
   }
-
-  
 
   .header {
     margin-top: 70px;
     /*text-align: center;*/
     color: #8ebfea;
   } 
+
+  .main {
+    margin-left: 0;
+  }
+
+  .content {
+    margin-left: 20px;
+    margin-top: 90px;
+    color: #8ebfea;
+  }
+
+  .double-container {
+    display: flex; /* Use flexbox */
+    margin-top: 200px; /* Adjust margin as needed */
+  }
   
+  /*
+  .box {
+    width: 50%; /* Each div takes up 50% of the container * /
+    height: 100px; /* Adjust height as needed * /
+    background-color: #ccc; /* Just for visibility * /
+  }
+  */
+  
+  .box1 {
+    margin-top: 200px;
+    width: 40%;
+    background-color: #191a1c57;
+  }
+
+  .div1 {
+    margin-left: 100px;
+  }
+
+  .div1 h1 {
+    color: #c2c3b5;
+  }
+
+  .laci {
+    color: rgb(48, 179, 215);
+    font-size: 25px;
+  }
+
+  .div1 h4 {
+    color: #969b4a;
+  }
+
+  .box2 {
+    width: 60%;
+    /*background-color: #0e0e066c; / * Change the background color */
+  }
+
+  .img-container1 {
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .img-container1 img {
+    width: 100%; /* Make the image width 100% of its parent div */
+    height: 100%; /* Make the image height 100% of its parent div */
+    object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+    border-radius: 30px;
+  }
+
+  .img-container2 {
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+  } 
+
+  .img-container2 img {
+    width: 100%; /* Make the image width 100% of its parent div */
+    height: 100%; /* Make the image height 100% of its parent div */
+    object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+    border-radius: 20px;
+  }
+
+  .img-container3 {
+    margin-top: 300px;
+    margin-left: 750px;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+  } 
+
+  .img-container3 img {
+    width: 100%; /* Make the image width 100% of its parent div */
+    height: 100%; /* Make the image height 100% of its parent div */
+    object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+    border-radius: 30px;
+  }
+
+  .img-container4 {
+    margin-top: 500px;
+    margin-left: 70px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+  } 
+
+  .img-container4 img {
+    width: 100%; /* Make the image width 100% of its parent div */
+    height: 100%; /* Make the image height 100% of its parent div */
+    object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+  }
