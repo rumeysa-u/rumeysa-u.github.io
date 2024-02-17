@@ -1,0 +1,24 @@
+/* Reset default margin and padding */
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+*/
+
+  /* Style body */
+  body {
+    background-image: url('images/bg.jpg'); /* Set the URL of your background image */
+    /*
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity /
+    background-blend-mode: overlay; /* Blend the background color with the image /
+    */
+    background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+    background-blend-mode: lighten; /* Blend the background color with the image using lighten mode */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image so it doesn't scroll with the content */
+  }
+
+  
