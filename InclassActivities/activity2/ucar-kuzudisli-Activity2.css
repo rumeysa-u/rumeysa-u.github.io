@@ -1,0 +1,60 @@
+body {
+	width: 750px;
+	margin: 0 auto;
+  }
+  
+  table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 20px;
+  }
+  
+  thead {
+	background-color: yellow;
+  }
+  
+  th,
+  td {
+	border: 1px solid black;
+	padding: 0.2em 1em 0.2em 0.5em;
+	text-align: left;
+	vertical-align: middle;
+  }
+  
+  tbody tr:nth-child(2n + 2) td {
+	background-color: yellow;
+  }
+  
+  table {
+	margin: auto;
+  }
+  
+  #year {
+	text-align: right;
+	font-weight: bold;
+  }
+  
+  h1 {
+	text-align: center;
+  }
+  
+  .right {
+	text-align: right;
+  }
+  
+  .mystyle {
+	font-weight: bold;
+  }
+  
+  #baslikkk {
+	background-color: white;
+	font-weight: bold;
+	vertical-align: text-top;
+  }
+  
+  .mydiv{
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 10px 10px 50px 10px;
+  }
+  
