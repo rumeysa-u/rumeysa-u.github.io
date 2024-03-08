@@ -1,0 +1,15 @@
+.footer{
+	position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.activities{
+    display: flex;
+    flex-direction: column;
+}
+
+.activities a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
