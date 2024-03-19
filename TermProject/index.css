@@ -1,0 +1,310 @@
+@font-face { 
+    font-family: Coashela; src: url('Coashela-Notes.otf'); 
+    font-family: Dejavu; src: url('DejaVuSansMono.ttf');
+    font-family: Dense; src: url('dense_regular.otf');
+}
+
+body{
+    background-color: #253239;
+    margin: 0 0 0 0;
+}
+
+.container{
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    /*flex-wrap: wrap;
+    justify-content: space-around;*/
+}
+
+.container2{
+    /*
+    height: 700px;
+    margin: 50px 70px 0 70px;
+    background-color: #414c4f;
+    */
+}
+
+.site-navbar{
+    display: flex;
+    align-items: center; /* Align items vertically in the navbar */
+    background-color: aliceblue;
+}
+
+.outerContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 #000;*/
+    background-color: #253239;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    /*align-items: center;*/
+}
+
+.innerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /*flex-wrap: wrap;
+    justify-content: space-around;*/
+    font-family: "Coashela";
+    font-size: 20px;
+}
+
+.navdiv{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    font-size: 23px;
+}
+
+.navdiv ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    /*width: 33%;*/
+}
+
+.navdiv ul li{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navdiv ul li a{
+    text-decoration: none;
+    color: #846c6c;
+}
+
+/*
+.active a{
+    color: #3f77e9;
+}
+*/
+
+.navdiv ul li .activeanchor{
+    color: #cc25d6;
+}
+
+.login{   /* logindiv span */
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+#user path {
+    fill: #cc25d6; /* Change the fill color to white */
+}
+
+#user{
+    margin-right: 7px; /* Adjust spacing between icon and text */
+
+}
+
+.navdiv ul .login a {
+    color: #cc25d6;
+}
+
+.logindiv button{
+    display: inline-flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    background-color: transparent;
+    border: none;
+    color: #9e567f;
+    font-size: 20px;
+    font-family: "Coashela";
+    cursor: pointer;
+}
+
+.loginlogo{
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+#navrightdiv{
+    margin-left: auto; /* Push the right nav div to the right */
+    /*justify-content: flex-end;*/
+}
+
+#navleftdiv{
+    /*justify-content: flex-start;*/
+    width: 45%;
+    padding-left: 10px;
+}
+
+.site-logo{
+    flex-grow: 1;
+    text-align: center;
+    /*justify-self: center;*/
+}
+
+.site-logo a{
+    color: #cc25d6; /*rgb(120, 28, 122);*/
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Coashela";
+    justify-self: center;
+}
+
+.site-logo a:hover{
+    color: #9e567f;
+}
+
+
+/**** container2 ****/
+
+
+/*
+.main{
+    height: 850px;
+    margin: 50px 70px 70px 70px;
+    background-color: #414c4f;
+}
+*/
+
+.main{
+    /*width: 1770px;*/
+    height: 850px;
+    margin: 50px 70px 70px 70px;
+    padding-left: 70px;
+    background-color: #001834;   /* #414c4f;*/
+    /*
+    background-image: url('images/main.jpeg');
+    background-size: contain; /* Adjust the size of the background image * /
+    background-position: center; /* Center the background image * /
+    background-repeat: no-repeat; /* Ensure the background image doesn't repeat * /
+    */
+    position: relative;
+    /*display: inline-block;*/
+    display: flex;
+    /*justify-content: center; /* Center the GIF horizontally * /
+    align-items: center; /* Center the GIF vertically */
+    
+}
+
+.mainImage{
+    /*width: 45%; /* Make the GIF fill the entire container * /
+    height: auto; /* Maintain aspect ratio * /*/
+    max-width: 100%;
+    max-height: 100%;
+    /*
+    display: block;
+    margin: auto; /* Center the GIF horizontally * /
+    position: absolute; /* Position the GIF within its container * /
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    */
+}
+
+/*
+.titleandbutton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Set the text color * /
+}
+*/
+
+.titleandbutton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Set the text color */
+}
+
+
+.mainTitle{
+    padding-top: 00px;
+}
+
+.mainText{
+    margin: 0 0 0 0;
+    color: #9e567f;  /* #cc25d6*/
+    font-size: 150px;
+    text-align: center;
+    font-family: "Dense";
+}   
+
+.exploreButton{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.exploreButton button{
+    width: 170px;
+    height: 50px;
+    background-color: transparent; /* Set the background color to transparent */
+    border: 2px solid #9e567f; /* Add border for visibility */
+    /*background-color: #253239; */
+    color: #9e567f;
+}
+
+.exploreButton button:hover{
+    background-color: #9e567f;
+    color: #001834;
+}
+
+
+.footer{
+    height: 300px;
+    background-color: #253239;
+    color: #9e567f;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/*
+.gif-container {
+    width: 1200px;
+    position: relative;
+    display: inline-block;
+}
+
+.gif {
+    width: 100%; /* Make the GIF fill the entire container * /
+    height: auto; /* Maintain aspect ratio * /
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Set the text color * /
+}
+
+.overlay-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.overlay-text p {
+    font-size: 16px;
+    margin: 0;
+    opacity: 0.8; /* Set the opacity of the text * /
+}
+*/
