@@ -13,7 +13,6 @@
     src: url('fonts/dense_regular.otf');
 }
 
-
 body{
     background-color: #253239;
     margin: 0 0 0 0;
@@ -26,13 +25,9 @@ body{
     display: flex;
 }
 
-.container2{
-    
-}
-
 .site-navbar{
     display: flex;
-    align-items: center; 
+    align-items: center;
     background-color: aliceblue;
 }
 
@@ -89,45 +84,52 @@ body{
     color: #cc25d6;
 }
 
-.login{   /* logindiv span */
-    white-space: nowrap;
+.profile{  
     display: flex;
     align-items: center;
 }
 
-#user path {
+.profilediv{
+    padding-top: 4px;
+}
+
+.profile a{
+    display: flex;
+}
+
+.profile svg{
+    display: flex;
+    align-self: center;
+    padding-bottom: 11px;
+    padding-right: 5px;
+}
+
+.profile svg path{
+    fill: #988080;
+}
+
+.activeanchor svg path{
     fill: #cc25d6;
 }
 
-#user{
-    margin-right: 7px; 
 
-}
-
-.navdiv ul .login a {
-    color: #cc25d6;
-}
 
 #navrightdiv{
-    margin-left: auto; /* Push the right nav div to the right */
-    /*justify-content: flex-end;*/
+    margin-left: auto; 
 }
 
 #navleftdiv{
-    /*justify-content: flex-start;*/
     width: 45%;
     padding-left: 10px;
 }
 
-
 .site-logo{
     flex-grow: 1;
     text-align: center;
-    /*justify-self: center;*/
 }
 
 .site-logo a{
-    color: #cc25d6; /*rgb(120, 28, 122);*/
+    color: #cc25d6; 
     text-decoration: none;
     font-size: 33px;
     font-weight: bold;
@@ -141,73 +143,58 @@ body{
 
 
 
-
-.main{
-    height: 850px;
-    margin: 50px 70px 70px 70px;
-    padding-left: 70px;
-    background-color: #001834;   /* #414c4f;*/
-    position: relative;
+.footercenter{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #ffffff;
+    font-family: "Coashela";
+    font-size: 20px;
 }
 
-.mainImage{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.titleandbutton{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-
-.mainTitle{
-    padding-top: 00px;
-}
-
-.mainText{
-    margin: 0 0 0 0;
-    color: #9e567f;  /* #cc25d6*/
-    font-size: 150px;
-    text-align: center;
-    font-family: "Dense";
-}   
-
-.exploreButton{
-    margin-top: 40px;
-    text-align: center;
-}
-
-.exploreButton button{
-    width: 170px;
-    height: 50px;
-    background-color: transparent; 
-    border: 2px solid #9e567f; 
-    color: #9e567f;
-}
-
-.exploreButton button:hover{
-    background-color: #9e567f;
-    color: #001834;
-}
-
-
-.lastText{
-    height: 300px;
-    background-color: #253239;
-    color: #9e567f;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.lastText p{
-    padding: 0 70px 0 70px;
+.footer .footercenter p{
+    margin: 0;
 }
 
 .et{
     color: #979595;
 }
+
+
+.container2 {
+    max-width: 1200px;
+    margin: 80px auto;
+    font-family: "Dense";
+    font-size: 23px;
+    color: #846c6c;
+    padding: 20px;
+    background-color: #28404e;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#profile-container img {
+    max-width: 150px; 
+    border-radius: 50%; 
+    display: block; 
+    margin: 0 auto 20px; 
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+
