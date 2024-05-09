@@ -1,0 +1,22 @@
+Students:
+Rumeysa Uçar   19050111009
+Taha Kuzudişli 19050111001
+
+Website Home Page Link:
+https://rumeysa-u.github.io/TermProject/index.html
+
+
+Explanation:
+All pages have its same name css extension stylesheet.
+Page transitions only triggered with navbar for now. Buttons doesn't activated or other actions not involved in this because of no JS only design.
+
+5 Page:
+Home
+Login
+Blog
+Forum
+Profile
+
+In navbar Login only can be visited through Home and Profile can be visited through other pages. It will be changed after JavaScript codes added.It left that way on purpose.
+
+About and Contact page designs will be changed.(at least 4 page condition fulfilled so they will be enhanced later.)
