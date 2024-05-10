@@ -14,6 +14,7 @@ h1 {
 }
 .bx-wrapper {
 	width: 350px;
+	margin: 0 auto;
 	margin-bottom: 20px !important;
 }
 
