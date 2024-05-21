@@ -1,0 +1,24 @@
+Group Members:
+Rumeysa Uçar    19050111009
+Taha Kuzudişli  19050111001
+
+
+List of the plugins and widget utilized in project:
+
+jQuery Validation plugin                                  --- Contact page forum(equired fields, email validation)
+jQuery ScrollToTop with Animation (FadeIn FadeOut) plugin --- About page and Forum page scroll top feature with corner button
+jQuery Cycle Plugin					  --- About page slideshows
+Magnific Popup 					          --- Profile Page
+Readmore 						  --- Blog Page
+
+jQuery UI-draggable					  --- Index page drag me around ball
+jQuery UI-tooltip					  --- Contact page email input tooltip
+jQuery UI-datepicker  				          --- Profile Page
+
+
+
+Web Links:
+https://rumeysa-u.github.io/TermProject/UcarKuzudisli_Sprint3/index.html
+https://tahakuzudisli.github.io/mysprint3/UcarKuzudisli_Sprint2/index.html
+
+
