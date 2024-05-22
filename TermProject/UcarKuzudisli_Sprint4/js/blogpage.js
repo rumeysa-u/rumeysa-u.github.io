@@ -56,3 +56,13 @@ function fetchTechnologyNews() {
         }
     });
 }
+
+
+$(document).ready(function() {
+    $('.blog-item p').readmore({
+        speed: 500,
+        maxHeight: 120,
+        moreLink: '<a href="#">Read More</a>',
+        lessLink: '<a href="#">Read Less</a>'
+    });
+});
