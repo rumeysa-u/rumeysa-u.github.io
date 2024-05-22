@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    $.getJSON('../json/data.json', function(data) {
+    $.getJSON('json/data.json', function(data) {
         var items = [];
         $.each(data, function(key, val) {
             items.push('<div class="box"><img src="' + val.image + '" alt="">' +

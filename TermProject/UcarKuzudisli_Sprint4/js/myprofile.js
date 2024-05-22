@@ -5,10 +5,10 @@ $(document).ready(function() {
     $('#darklight').click(function() {
         var currentCSS = $("#styleSheet").attr("href");
 
-        if (currentCSS === "../css/profilestylelight.css") {
-            $("#styleSheet").attr("href", "../css/profile.css"); 
+        if (currentCSS === "css/profilestylelight.css") {
+            $("#styleSheet").attr("href", "css/profile.css"); 
         } else {
-            $("#styleSheet").attr("href", "../css/profilestylelight.css"); 
+            $("#styleSheet").attr("href", "css/profilestylelight.css"); 
         }
     });
 });
