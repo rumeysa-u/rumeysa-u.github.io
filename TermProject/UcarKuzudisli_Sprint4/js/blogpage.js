@@ -1,6 +1,5 @@
 
 $(document).ready(function() {
-    // Load blog items from JSON
     $.getJSON('json/data.json', function(data) {
         var items = [];
         $.each(data, function(key, val) {
@@ -10,25 +9,17 @@ $(document).ready(function() {
                        '<a href="' + val.link + '" class="readmore-btn">Read More</a></div>');
         });
         $('#blogContainer').html(items.join(''));
-        
-        // Apply Readmore.js to loaded content
-        $('#blogContainer .box p').readmore({
-            speed: 500,
-            maxHeight: 120,
-            moreLink: '<a href="#">Read More</a>',
-            lessLink: '<a href="#">Read Less</a>'
-        });
     });
 
-    // Toggle read more/less
-    $(document).on('click', '.readmore-btn', function(e) {
-        e.preventDefault();
-        $(this).parent().find('p').toggleClass("showContent");
-        var replaceText = $(this).parent().find('p').hasClass("showContent") ? "Read Less" : "Read More";
+    $(document).on('click', '.readmore-btn', function() {
+        $(this).parent().toggleClass("showContent");
+        var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
         $(this).text(replaceText);
     });
+});
 
-    // Fetch technology news
+
+$(document).ready(function() {
     fetchTechnologyNews();
 });
 
@@ -46,11 +37,11 @@ function fetchTechnologyNews() {
                 articles.forEach(function(article) {
                     var newsItem = `<div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img src="${article.urlToImage}" class="card-img-top" alt="News Image">
+                            <img src="${article.urlToImage}" class="card-img-top" alt="Haber Resmi">
                             <div class="card-body">
                                 <h5 class="card-title">${article.title}</h5>
                                 <p class="card-text">${article.description}</p>
-                                <a href="${article.url}" target="_blank" class="btn btn-primary">Read More</a>
+                                <a href="${article.url}" target="_blank" class="btn btn-primary">Daha Fazla Oku</a>
                             </div>
                         </div>
                     </div>`;
@@ -65,4 +56,24 @@ function fetchTechnologyNews() {
         }
     });
 }
+
+
+$(document).ready(function() {
+    $('.blog-item p').readmore({
+        speed: 500,
+        maxHeight: 120,
+        moreLink: '<a href="#">Read More</a>',
+        lessLink: '<a href="#">Read Less</a>'
+    });
+});
+
+
+$(document).ready(function() {
+    $('.blog-item p').readmore({
+        speed: 500,
+        maxHeight: 120,
+        moreLink: '<a href="#">Read More</a>',
+        lessLink: '<a href="#">Read Less</a>'
+    });
+});
 
