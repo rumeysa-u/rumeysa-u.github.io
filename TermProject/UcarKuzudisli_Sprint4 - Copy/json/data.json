@@ -1,0 +1,38 @@
+[
+    {
+        "title": "What is Artificial Intelligence? How does AI work and future of it",
+        "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+        "content": "Before we dig deep into the world of Artificial Intelligence, you can check out this wonderful course on AI which will cover the brief regarding all the basic and intermediate concepts related to Artificial Intelligence. Cheers! What is Artificial Intelligence? A Definition of Artificial Intelligence The short answer to What is Artificial Intelligence is that it depends on who you ask. A layman with a fleeting understanding of technology would link it to robots. They’d say Artificial Intelligence is a terminator like-figure that can act and think on its own. An AI researcher would say that it’s a set of algorithms that can produce results without having to be explicitly instructed to do so. And they would all be right. Summary of Artificial Intelligence An intelligent entity created by humans. Capable of performing tasks intelligently without being explicitly instructed. Capable of thinking and acting rationally and humanely.",
+        "link": "javascript:void();"
+    },
+    {
+        "title": "Introduction to Object-Oriented Programming (OOP)",
+        "image": "https://yazilimnedir.com/wp-content/uploads/2018/01/wordpress-oop11.jpg",
+        "content": "Object-Oriented Programming (OOP) stands as a fundamental paradigm in the world of software development, revolutionizing the way programmers approach problem-solving and software design. At its core, OOP introduces a novel way of structuring code by organizing data and its related functions into cohesive units called “objects.” This section will provide an insightful overview of OOP, highlighting its significance in modern software development and introducing key terminology that lays the foundation for a comprehensive understanding. Definition and Concept of OOP At its simplest, Object-Oriented Programming can be defined as a programming paradigm that models real-world entities and their interactions through the creation and manipulation of objects. So, whether you’re a novice programmer or someone seeking to expand your coding horizons, this guide will equip you with the knowledge and tools to harness the power of Object-Oriented Programming.",
+        "link": "javascript:void();"
+    },
+    {
+        "title": "Getting Started with Spring Boot: A Beginner’s Guide",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQgWQxtqqDo9wYi0egyh0zIKIMTCZPIzBVWpaX4gtauA&s",
+        "content": "Spring Boot is a powerful and popular framework for building Java applications. It facilitates the development process by providing a set of standards and defaults, which allows developers to quickly create production-ready applications. Whether you’re a experienced Java programmer or just getting started with programming, Spring Boot can simplify your life. In this article, we’ll walk you through the basics of getting started with Spring Boot. What is Spring Boot? Spring Boot is an extension of the Spring Framework, which is widely used in Java application development. While the Spring Framework provides a comprehensive set of tools for building enterprise-level applications, it can be quite complex to set up and configure. This is where Spring Boot comes into play. Spring Boot aims to simplify the development process by providing a set of pre-configured templates, dependencies, and conventions.",
+        "link": "javascript:void();"
+    },
+    {
+        "title": "Introduction to Web Development",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrDdfBFhio-hvRCI8cctasmpsoHpEKI5XyOSABW2I8xg&s",
+        "content": "Web development refers to the process of building and maintaining websites and web applications that are accessible over the internet. It encompasses a wide range of tasks, from creating simple static web pages to developing complex dynamic web applications. Web development typically involves a combination of programming, markup languages, design, and server administration. The basic requirements for web development include: HTML (Hypertext Markup Language): The fundamental language used to create the structure and content of web pages. CSS (Cascading Style Sheets): Used to style and format the HTML elements, giving the web pages a visually appealing look. JavaScript: A programming language that adds interactivity and dynamic elements to web pages, allowing for user interactions and data manipulation.",
+        "link": "javascript:void();"
+    },
+    {
+        "title": "Elon Musk",
+        "image": "https://ares.shiftdelete.net/2024/05/elon-musk-apple-yeni-ipad-gizli-urun-5.jpg",
+        "content": "Elon Reeve Musk is a businessman and investor. He is the founder, chairman, CEO, and CTO of SpaceX; angel investor, CEO, product architect, and former chairman of Tesla, Inc.; owner, executive chairman, and CTO of X Corp.; founder of the Boring Company and xAI; co-founder of Neuralink and OpenAI; and president of the Musk Foundation. He is one of the wealthiest people in the world; as of April 2024, Forbes estimates his net worth to be $178 billion.[4] A member of the wealthy South African Musk family, Musk was born in Pretoria and briefly attended the University of Pretoria before immigrating to Canada at age 18, acquiring citizenship through his Canadian-born mother. Two years later, he matriculated at Queen's University at Kingston in Canada. Musk later transferred to the University of Pennsylvania and received bachelor's degrees in economics and physics. He moved to California in 1995 to attend Stanford University, but dropped out after two days and, with his brother Kimbal, co-founded online city guide software company Zip2. The startup was acquired by Compaq for $307 million in 1999. That same year, Musk co-founded X.com, a direct bank. X.com merged with Confinity in 2000 to form PayPal. In October 2002, eBay acquired PayPal for $1.5 billion. Using $100 million of the money he made from the sale of PayPal, Musk founded SpaceX, a spaceflight services company, in 2002.",
+        "link": "javascript:void();"
+    },
+    {
+        "title": "Introduction to Encryption",
+        "image": "https://kinsta.com/wp-content/uploads/2023/07/what-is-encryption.jpg",
+        "content": "What is Encryption? In computing, encryption is the method by which plain text or any other type of data is converted from a readable form to an encoded version that can only be decoded by another entity if they have access to a decryption key. Encryption is one of the most important methods for providing data security, especially for end-to-end protection of data transmitted across networks. Plain text is encrypted using an encryption algorithm and an encryption key. This generates an unreadable text which is called as ciphertext(encrypted data). Decryption is the inverse of encryption, original form of data can only be viewed by decrypting encrypted data with the correct key. There are two main types of data encryption methods, Symmetric Encryption (private-key encryption) Asymmetric Encryption (public-key encryption) Cryptographically strength is similar in both of these methods but asymmetric encryption requires heavier mathematics and more computational power compared to symmetric encryption. So, asymmetric encryption is less efficient than symmetric encryption.",
+        "link": "javascript:void();"
+    }
+]

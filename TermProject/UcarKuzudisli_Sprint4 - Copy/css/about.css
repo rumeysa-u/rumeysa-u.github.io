@@ -1,0 +1,287 @@
+@font-face {
+    font-family: Coashela;
+    src: url('../fonts/Coashela Notes.otf');
+}
+
+@font-face {
+    font-family: Dejavu;
+    src: url('../fonts/DejaVuSansMono.ttf');
+}
+
+@font-face {
+    font-family: Dense;
+    src: url('../fonts/dense_regular.otf');
+}
+
+
+body{
+    background-color: #253239;
+    margin: 0 0 0 0;
+}
+
+.container{
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+}
+
+
+.site-navbar{
+    display: flex;
+    align-items: center; 
+    background-color: aliceblue;
+}
+
+.outerContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #253239;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+
+.innerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Coashela";
+    font-size: 20px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+.navdiv ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navdiv ul li{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navdiv ul li a{
+    text-decoration: none;
+    color: #846c6c;
+}
+
+
+.navdiv ul li .activeanchor{
+    color: #a1ed38;;
+}
+
+.profile{  
+    display: flex;
+    align-items: center;
+}
+
+.profilediv{
+    padding-top: 4px;
+}
+
+.profile a{
+    display: flex;
+}
+
+.profile svg{
+    display: flex;
+    align-self: center;
+    padding-bottom: 11px;
+    padding-right: 5px;
+}
+
+.profile svg path{
+    fill: #988080;
+}
+
+
+#navrightdiv{
+    margin-left: auto; 
+}
+
+#navleftdiv{
+    width: 45%;
+    padding-left: 10px;
+}
+
+.site-logo{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.site-logo a{
+    color: #a1ed38; /*rgb(120, 28, 122);*/
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Coashela";
+    justify-self: center;
+}
+
+.site-logo a:hover{
+    color: #ec9b21;
+}
+
+
+
+
+
+main{
+    height: 2700px;
+    margin: 70px;
+    margin-top: 50px;
+    /*padding-top: 170px;*/
+    /*background-color: rgba(166, 212, 51, 0.464);*/
+    position: relative; /* Add position relative to create a positioning context */
+}
+
+main h1{
+    text-align: center;
+    font-family: "Dense";
+    font-size: 70px;
+    color: #ffffffcb;
+}
+
+.overlaytext{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.image1{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/DS18_2016_17_ Monsoon Assemblages Chennai, Brief 1_  Hydrological Prototype.jpeg');
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the div horizontally and vertically */
+}
+
+
+.slideshow {
+    z-index: 10;
+    width: 500px;
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slideshow img:first-child {
+    display: block;
+}
+
+.slideshowtext {
+    z-index: 10;
+    width: 350px;
+    position: absolute;
+    top: 44.5%;
+    left: 45%;
+    color: #ffffff;
+    font-family: "Dejavu";
+}
+
+
+
+.slideshow2 {
+    z-index: 10;
+    width: 500px;
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden;
+    position: absolute;
+    top: 59%;
+    left: 60%;
+}
+
+.slideshow2 img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slideshow2 img:first-child {
+    display: block;
+}
+
+.slideshowtext2 {
+    z-index: 10;
+    width: 350px;
+    position: absolute;
+    top: 63.7%;
+    left: 37%;
+    color: #ffffff;
+    font-family: "Dejavu";
+}
+
+
+
+.to-top {
+    /*display: none;*/
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    background: #25c560b1;
+    color: #fff;
+    padding: 9px 12px;
+    border-radius: 50%;
+    height: 19px;
+    width: 14px;
+    justify-content: center;    
+    display: none;
+}
+
+.to-top:hover {
+    background: #d7d7d7;
+    color: #000;
+}
+
+
+
+
+
+.footercenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #ffffff;
+    font-family: "Coashela";
+    font-size: 20px;
+}
+
+.footer .footercenter p{
+    margin: 0;
+}
+
+
+.et {
+    color: #979595;
+}

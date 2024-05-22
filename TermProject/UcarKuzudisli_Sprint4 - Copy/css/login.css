@@ -1,0 +1,307 @@
+@font-face {
+    font-family: Coashela;
+    src: url('../fonts/Coashela Notes.otf');
+}
+
+@font-face {
+    font-family: Dejavu;
+    src: url('../fonts/DejaVuSansMono.ttf');
+}
+
+@font-face {
+    font-family: Dense;
+    src: url('../fonts/dense_regular.otf');
+}
+
+
+body{
+    background-color: #253239;
+    margin: 0 0 0 0;
+}
+
+.container{
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+}
+
+.container2{
+   
+}
+
+.site-navbar{
+    display: flex;
+    align-items: center; 
+    background-color: aliceblue;
+}
+
+.outerContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #253239;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+
+.innerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Coashela";
+    font-size: 20px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+.navdiv ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navdiv ul li{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navdiv ul li a{
+    text-decoration: none;
+    color: #846c6c;
+}
+
+
+.navdiv ul li .activeanchor{
+    color: #cc25d6;
+}
+
+
+.login{   /* logindiv span */
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+
+#navrightdiv{
+    margin-left: auto; 
+}
+
+#navleftdiv{
+    width: 45%;
+    padding-left: 10px;
+}
+
+.site-logo{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.site-logo a{
+    color: #cc25d6; /*rgb(120, 28, 122);*/
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Coashela";
+    justify-self: center;
+}
+
+.site-logo a:hover{
+    color: #9e567f;
+}
+
+
+
+
+
+
+.main{
+    height: 800px;
+    margin: 50px 70px 50px 70px;
+    background-color: #ffc1e581;
+}
+
+.createaccount{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 20px 0 0;
+}
+
+.createaccount button{
+    background-color: transparent;
+    border: none;
+}
+
+.createaccount button:hover{
+    text-decoration: underline; 
+}
+
+.createaccount p{
+    font-size: 20px;
+    font-family: "Coashela";
+    color: #000000;
+}
+
+.logodiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0 0;
+}
+
+.logodiv p{
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: "Coashela";
+    color: #000000;
+}
+
+.doublepartdiv{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    z-index: 10;
+}
+
+.centerlinediv{
+    height: 300px;
+}
+
+.line{
+    margin: 45%;
+    height: 150px;
+    width: 1px;
+    border: #000000 2px solid;
+}
+
+.part1div{
+    height: 50%;
+    width: 50%;
+    /*background-color: #40a7be;*/
+    display: flex;
+    justify-content: flex-end;
+    margin: 55px 50px 0 0;
+}
+
+.label{
+    margin: 20px 20px 20px 20px;
+    font-family: "Dejavu";
+    font-size: 15px;
+    color: #253239; /*color: #6e6e77;*/
+}
+
+.inputdiv{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputdiv input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #6e6e77;
+    padding: 10px;
+    font-family: "Coashela";
+    font-size: 15px;
+    background-color: transparent;
+    color: #253239; /*color: #838383;*/
+}
+
+.inputdiv input::placeholder {
+    color: #253239;
+}
+
+.buttondiv{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttondiv input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #6e6e77;
+    padding: 10px;
+    font-family: "Coashela";
+    font-size: 15px;
+    background-color: #9e567f;
+    color: #253239; /*color: #838383;*/
+}
+
+
+
+.part2div{
+    height: 50%;
+    width: 50%;
+    /*background-color: #66bb1c;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 67px 0 0 50px;
+}
+
+.card{
+    width: 450px;
+    height: 60px;
+    background-color: transparent;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000000;
+    display: flex;
+    align-items: center;
+}
+
+.card span {
+    color: #253239; /*color: #6e6e77;*/
+}
+
+.icon{
+    margin: 0 100px 0 20px;
+}
+
+
+
+
+
+.footer{
+
+}
+
+
+.footercenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #ffffff;
+    font-family: "Coashela";
+    font-size: 20px;
+}
+
+.footer .footercenter p{
+    margin: 0;
+}
+
+.et {
+    color: #979595;
+}
+

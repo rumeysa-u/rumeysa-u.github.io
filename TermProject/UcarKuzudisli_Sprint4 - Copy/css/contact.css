@@ -1,0 +1,366 @@
+@font-face {
+    font-family: Coashela;
+    src: url('../fonts/Coashela Notes.otf');
+}
+
+@font-face {
+    font-family: Dejavu;
+    src: url('../fonts/DejaVuSansMono.ttf');
+}
+
+@font-face {
+    font-family: Dense;
+    src: url('../fonts/dense_regular.otf');
+}
+
+
+body{
+    background-color: #253239;
+    margin: 0 0 0 0;
+}
+
+.container{
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+}
+
+
+.site-navbar{
+    display: flex;
+    align-items: center; 
+    background-color: aliceblue;
+}
+
+.outerContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #253239;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+
+.innerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Coashela";
+    font-size: 20px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+.navdiv ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navdiv ul li{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navdiv ul li a{
+    text-decoration: none;
+    color: #846c6c;
+}
+
+
+.navdiv ul li .activeanchor{
+    color: #f26311;;
+}
+
+.profile{  
+    display: flex;
+    align-items: center;
+}
+
+.profilediv{
+    padding-top: 4px;
+}
+
+.profile a{
+    display: flex;
+}
+
+.profile svg{
+    display: flex;
+    align-self: center;
+    padding-bottom: 11px;
+    padding-right: 5px;
+}
+
+.profile svg path{
+    fill: #988080;
+}
+
+
+#navrightdiv{
+    margin-left: auto; 
+}
+
+#navleftdiv{
+    width: 45%;
+    padding-left: 10px;
+}
+
+.site-logo{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.site-logo a{
+    color: #f26311; /*rgb(120, 28, 122);*/
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Coashela";
+    justify-self: center;
+}
+
+.site-logo a:hover{
+    color: #f4e91d;
+}
+
+main{
+    /*height: 800px;*/
+    margin: 70px;
+    margin-top: 50px;
+    /*background-color: #979595;*/
+}
+
+
+.container2 {
+    position: relative; /* Add position relative to create a positioning context */
+}
+
+.div1 {
+    position: relative; /* Position relative to create a positioning context */
+    overflow: hidden; /* Hide any overflow from the absolutely positioned image */
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.div1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Ensure the image fills the container */
+    z-index: 1; /* Position the image behind the text */
+}
+
+.text-container {
+    /*position: relative;*/
+    position: absolute;
+    top: 24.5%;
+    left: 33.5%;
+    width: 26%;
+    height: 33%;
+    background-color: #ea5e0db7;
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+    color: white; /* Text color on top of the image */
+    margin: 45px;
+    padding: 20px; /* Padding around the text */
+    z-index: 10;
+}
+
+.text-container h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text-container p {
+    font-size: 20px;
+}
+
+
+.div2 {
+    overflow: hidden; /* Hide any overflow from the absolutely positioned image */
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 1cap0px;
+}
+
+
+.div2 form {
+    display: flex; /* Make div2 a flex container */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    width: 35%;
+    margin: 10px 10px 10px 10px;
+}
+
+.div2 form label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #979595;
+    margin: 5px;
+}
+
+.div2 form input {
+    padding: 10px;
+    margin: 13px 0;
+    border: 1px solid #979595;
+    border-radius: 5px;
+}
+
+/* Increase specificity for tooltip styling */
+body .ui-tooltip.ui-widget-content {
+    background-color: #fff7f7bc;
+    color: #ba2323;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    width: 300px !important; /* ??? */
+    /*font-weight: 600;*/
+  }
+  
+  /* Increase specificity for tooltip arrow styling */
+  body .ui-tooltip.ui-widget-content:before {
+    border-top-color: #333 !important;
+  }
+
+
+.div2 form input[type="submit"] {
+    background-color: #f26311;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    align-self: center;
+}
+
+.div2 form input[type="submit"]:hover {
+    background-color: #f4e91d;
+}
+
+.div2 form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #979595;
+    border-radius: 5px;
+}
+
+.div2 form textarea:focus {
+    border: 1px solid #f26311;
+}
+
+.div2 form textarea::placeholder {
+    color: #979595;
+}
+
+.div2 form input::placeholder {
+    color: #979595;
+}
+
+
+.div2 img {
+    width: 28%;
+    height: 40%; 
+    border-radius: 50% / 25%;
+    margin-top: 130px;
+}
+
+.div2_inner {
+    color: #ffffff;
+    font-family: "Coashela";
+    font-size: 27px;
+    margin: 0px 10px 10px 20px;
+    /* text-align: center; */
+}
+
+.div2_inner h2 {
+    margin-top: 15px;
+}
+
+
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */  /*changed from 1 to 10 cause of image*/
+    left: 30%;
+    top: 25%;
+    width: 40%; 
+    height: 40%; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal content */
+.modal-content {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 70%;
+    height: 50%;
+    background-color: #a9835e;
+    padding: 20px;
+    border: 1px solid #888;
+    color: #f48326;
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.footercenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Coashela";
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer .footercenter p{
+    margin: 0;
+}
+
+
+.et {
+    align-self: flex-start;
+    bottom: 0;
+    color: #979595;
+}

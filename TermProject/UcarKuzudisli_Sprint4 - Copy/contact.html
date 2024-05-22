@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ArtRithms</title>
+        <link rel="icon" href="images/prisma.png" type="image/png">
+    
+        <!-- Include jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        
+        <!-- Include jQuery UI library -->
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+        
+        <!-- Include jQuery Validate plugin -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    
+        <!-- Include your custom CSS -->
+        <link rel="stylesheet" href="css/contact.css">
+    
+        <!-- Include jQuery UI CSS -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+        
+        <!-- Include your contact.js script -->
+        <script src="js/contact.js"></script>
+    </head>
+    
+<body>
+    <div class="container">
+        <header class="site-navbar" role="banner">
+            <div class="outerContainer">
+                <div class="innerContainer">
+                    <div id="navleftdiv" class="navdiv">
+                        <nav class="site-navigation" role="navigation">
+                            <ul class="site-menu">
+                                <li><a href="index.html" class="nav-link">Home</a></li>
+                                <li><a href="blogpage.html" class="nav-link">Blog</a></li>
+                                <li><a href="forum.html" class="nav-link">Forum</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navdiv site-logo">
+                        <a href="index.html">[ ArtRithms ]</a>
+                    </div>
+                    <div id="navrightdiv" class="navdiv">
+                        <nav class="site-navigation" role="navigation">
+                            <ul class="site">
+                                <li class="profile">
+                                    <div class="profilediv">
+                                        <a href="profile.html" class="nav-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="26" height="26" viewBox="0 0 30 24" id="user">
+                                                <path d="M14.5 2A12.514 12.514 0 0 0 2 14.5 12.521 12.521 0 0 0 14.5 27a12.5 12.5 0 0 0 0-25Zm7.603 19.713a8.48 8.48 0 0 0-15.199.008A10.367 10.367 0 0 1 4 14.5a10.5 10.5 0 0 1 21 0 10.368 10.368 0 0 1-2.897 7.213ZM14.5 7a4.5 4.5 0 1 0 4.5 4.5A4.5 4.5 0 0 0 14.5 7Z"></path>
+                                            </svg>
+                                            <span>Profile</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li><a href="about.html" class="nav-link">About</a></li>
+                                <li><a href="contact.html" class="nav-link activeanchor">Contact</a></li>           
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container2">
+        <main>
+            <div class="div1">
+                <img src="images/5c4386f8-d5bd-4622-b4c4-820934b73adc.jpeg" alt="Contact Us">
+                <div class="text-container">
+                    <h1>Contact Us</h1>
+                    <p>For any queries, feel free to contact us.</p>
+                    <p>Our team will get back to you as soon as possible.</p>
+                </div>
+            </div>            
+            <div class="div2">
+                <form id="contactForm" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." class="required">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email.." class="required email" title="It's not gonna be shared with any other parties.">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject.." class="required">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px" class="required"></textarea>
+                    <input type="submit" value="Submit">
+                </form>     
+                
+                <!-- Modal -->
+                <div id="successModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Your form has been submitted successfully! Thank you for your feedback.</p>
+                    </div>
+                </div>
+                <img src="images/communication.jpg" alt="Communication">
+                <div class="div2_inner">
+                    <h2>Our Address</h2>
+                    <p>ArtRithms</p>
+                    <p>1234, ArtRithms Street</p>
+                    <p>ArtRithms City, 123456</p>
+                    <p>ArtRithms Country</p>
+                    <p>Phone: +91 1234567890</p>
+                    <p>Email: ArtRithmss@gmail.com</p>
+                </div>
+            </div>   
+        </main>
+    </div>
+    <div>
+        <footer>
+            <div class="footer">
+                <div class="footercenter">
+                    <p>For sharing and learning together.</p>
+                    <p>ArtRithms</p>
+                </div>
+                <p class="et">© 2021 ArtRithms</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+                        
