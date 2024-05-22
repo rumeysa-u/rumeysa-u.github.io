@@ -1,16 +1,16 @@
 @font-face {
     font-family: Coashela;
-    src: url('fonts/Coashela Notes.otf');
+    src: url('../fonts/Coashela Notes.otf');
 }
 
 @font-face {
     font-family: Dejavu;
-    src: url('fonts/DejaVuSansMono.ttf');
+    src: url('../fonts/DejaVuSansMono.ttf');
 }
 
 @font-face {
     font-family: Dense;
-    src: url('fonts/dense_regular.otf');
+    src: url('../fonts/dense_regular.otf');
 }
 
 

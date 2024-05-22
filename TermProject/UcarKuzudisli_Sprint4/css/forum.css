@@ -1,18 +1,17 @@
 @font-face {
     font-family: Coashela;
-    src: url('fonts/Coashela Notes.otf');
+    src: url('../fonts/Coashela Notes.otf');
 }
 
 @font-face {
     font-family: Dejavu;
-    src: url('fonts/DejaVuSansMono.ttf');
+    src: url('../fonts/DejaVuSansMono.ttf');
 }
 
 @font-face {
     font-family: Dense;
-    src: url('fonts/dense_regular.otf');
+    src: url('../fonts/dense_regular.otf');
 }
-
 
 body{
     background-color: #253239;
@@ -443,7 +442,7 @@ body{
 
 
 
-
+/*
 .pagination{
     display: flex;
     flex-direction: row;
@@ -467,6 +466,7 @@ body{
     font-family: "Dejavu";
 }
 
+
 #first{
     background-color: #b23cb8;
     border: #000000 1px solid;
@@ -478,6 +478,48 @@ body{
     border: #000000 1px solid;
     color: #ffffff;
 }
+
+*/
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+.pagination a {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a:hover {
+    background-color: #ccc;
+}
+
+
+#itemsPerPageDropdownContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#itemsPerPageDropdown {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+}
+
 
 
 

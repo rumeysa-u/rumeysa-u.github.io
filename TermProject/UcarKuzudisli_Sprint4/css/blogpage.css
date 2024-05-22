@@ -1,0 +1,251 @@
+@font-face {
+    font-family: Coashela;
+    src: url('../fonts/Coashela Notes.otf');
+}
+
+@font-face {
+    font-family: Dejavu;
+    src: url('../fonts/DejaVuSansMono.ttf');
+}
+
+@font-face {
+    font-family: Dense;
+    src: url('../fonts/dense_regular.otf');
+}
+
+body{
+    background-color: #253239;
+    margin: 0 0 0 0;
+}
+
+
+
+.site-navbar{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.outerContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #253239;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+
+.innerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Coashela";
+    font-size: 20px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+.navdiv ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navdiv ul li{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navdiv ul li a{
+    text-decoration: none;
+    color: #846c6c;
+}
+
+.navdiv ul li .activeanchor{
+    color: #cc25d6;
+}
+
+
+#navrightdiv{
+    margin-left: auto; 
+}
+
+#navleftdiv{
+    width: 45%;
+    padding-left: 10px;
+}
+
+.site-logo{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.site-logo a{
+    color: #cc25d6; 
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Coashela";
+    justify-self: center;
+}
+
+.site-logo a:hover{
+    color: #9e567f;
+}
+
+
+.profile{  
+    display: flex;
+    align-items: center;
+}
+
+.profilediv{
+    padding-top: 4px;
+}
+
+.profile a{
+    display: flex;
+}
+
+.profile svg{
+    display: flex;
+    align-self: center;
+    margin-bottom: 11px;
+    margin-right: 5px;
+}
+
+.profile svg path{
+    fill: #988080;
+}
+
+
+.container {
+    min-height: 10vh; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+    background-color: #253239; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+
+
+.footercenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #ffffff;
+    font-family: "Coashela";
+    font-size: 20px;
+}
+
+.footer .footercenter p{
+    margin: 0;
+}
+
+.et{
+    color: #979595;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.container-2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+*{
+    margin: 0;
+padding: 0; 
+box-sizing: border-box;
+        }
+body{
+background-color: #2d3b42;
+font-family: Open Sans, sans-serif;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    }
+    .box {
+        width: 29%;
+        margin: 20px; 
+        background-color: #ffffff; 
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    
+    
+    .box h4{
+    margin-bottom: 10px;
+    }
+    .box p{
+    font-size: 15px;
+    line-height: 28px;
+    height: 90px;
+    overflow: hidden;
+    }
+    .box a{
+    display: inline-block;
+    color: #fff;
+    background-color: #2196f3;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    }
+    .box a:hover{
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    }
+    
+    .box.showContent p{
+        height: auto;
+    }
+    
+    .box.showContent a.readmore-btn{
+    background-color: red;
+    }
+
+
+    .titles-for-blogs-news{
+        color: white;
+        margin-top: 30px;
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

@@ -1,0 +1,223 @@
+[
+    {
+        "votes": "2466 votes",
+        "answers": "26 answers",
+        "views": "230k views",
+        "title": "How to create a new project in Visual Studio Code?",
+        "entry": "When I open Visual Studio Code, I don't see an option to create a new project. How do I create a new project?",
+        "tags": ["VSC", "Project"],
+        "info": {
+            "author": "Alex J.",
+            "asked": "Asked 2 days ago",
+            "active": "Active 1 day ago"
+        }
+    },
+    {
+        "votes": "457 votes",
+        "answers": "18 answers",
+        "views": "25k views",
+        "title": "Asp.Net Course",
+        "entry": "Hii guys. I currently have the 'Complete Applied Web Development Training' course from the Sadık teacher on Udemy. I need to develop a project with ASP. Do I need to take this course 'Advanced Web Development from Scratch with Asp.Net Core 8.0' or will my current course be sufficient?",
+        "tags": [".NET", "Project"],
+        "info": {
+            "author": "Osman Deniz",
+            "asked": "Asked 1 days ago",
+            "active": "Active 1 hour ago"
+        }
+    },
+    {
+        "votes": "25 votes",
+        "answers": "3 answers",
+        "views": "967 views",
+        "title": "Json file content is deleted on every restart",
+        "entry": "I am making a discord bot. I tried to save it in a json file instead of the database. I added a lot of things without paying attention, but every time I start the bot, the contents are reset. I tried to back it up to the database and transfer it to json files to prevent it from getting lost, but I couldn't do it. Where could I be making a mistake?",
+        "tags": ["Discord Bot", "Python", "Json"],
+        "info": {
+            "author": "Ömer Asaf",
+            "asked": "Asked 5 hour ago",
+            "active": "Active 12 min ago"
+        }
+    },
+    {
+        "votes": "352 votes",
+        "answers": "14 answers",
+        "views": "2765 views",
+        "title": "I Don't Know My Rockstar Games Account's Email Password xxxxxxxx",
+        "entry": "URGENT!!!!!<br>Guys, I bought RDR2 yesterday and connected a Rockstar account for GTA 3-4 years ago, but I cannot access that account now, it has disappeared, how can I solve this, please help urgently.",
+        "tags": ["Game", "Hobby"],
+        "info": {
+            "author": "Selim H.",
+            "asked": "Asked 3 days ago",
+            "active": "Active 7 hours ago"
+        }
+    },
+    {
+        "votes": "12 votes",
+        "answers": "7 answers",
+        "views": "85 views",
+        "title": "Web team",
+        "entry": "Hello friends, I am Emir. I'm looking for people to design a website together. I'm taking a 'web design course' as an elective at school. I have knowledge of HTML but I have intermediate knowledge of CSS. (I'm trying to make a layout or responsive design.) I'm looking for a friend who will be interested regardless of their knowledge level.",
+        "tags": ["Web", "Code-buddy"],
+        "info": {
+            "author": "Emir",
+            "asked": "Asked 6 weeks ago",
+            "active": "Active 3 days ago"
+        }
+    },
+    {
+        "votes": "2466 votes",
+        "answers": "26 answers",
+        "views": "230k views",
+        "title": "How to create a new project in Visual Studio Code?",
+        "entry": "When I open Visual Studio Code, I don't see an option to create a new project. How do I create a new project?",
+        "tags": ["VSC", "Project"],
+        "info": {
+            "author": "Alex J.",
+            "asked": "Asked 2 days ago",
+            "active": "Active 1 day ago"
+        }
+    },
+    {
+        "votes": "457 votes",
+        "answers": "18 answers",
+        "views": "25k views",
+        "title": "Asp.Net Course",
+        "entry": "Hii guys. I currently have the 'Complete Applied Web Development Training' course from the Sadık teacher on Udemy. I need to develop a project with ASP. Do I need to take this course 'Advanced Web Development from Scratch with Asp.Net Core 8.0' or will my current course be sufficient?",
+        "tags": [".NET", "Project"],
+        "info": {
+            "author": "Osman Deniz",
+            "asked": "Asked 1 days ago",
+            "active": "Active 1 hour ago"
+        }
+    },
+    {
+        "votes": "25 votes",
+        "answers": "3 answers",
+        "views": "967 views",
+        "title": "Json file content is deleted on every restart",
+        "entry": "I am making a discord bot. I tried to save it in a json file instead of the database. I added a lot of things without paying attention, but every time I start the bot, the contents are reset. I tried to back it up to the database and transfer it to json files to prevent it from getting lost, but I couldn't do it. Where could I be making a mistake?",
+        "tags": ["Discord Bot", "Python", "Json"],
+        "info": {
+            "author": "Ömer Asaf",
+            "asked": "Asked 5 hour ago",
+            "active": "Active 12 min ago"
+        }
+    },
+    {
+        "votes": "352 votes",
+        "answers": "14 answers",
+        "views": "2765 views",
+        "title": "I Don't Know My Rockstar Games Account's Email Password xxxxxxxx",
+        "entry": "URGENT!!!!!<br>Guys, I bought RDR2 yesterday and connected a Rockstar account for GTA 3-4 years ago, but I cannot access that account now, it has disappeared, how can I solve this, please help urgently.",
+        "tags": ["Game", "Hobby"],
+        "info": {
+            "author": "Selim H.",
+            "asked": "Asked 3 days ago",
+            "active": "Active 7 hours ago"
+        }
+    },
+    {
+        "votes": "12 votes",
+        "answers": "7 answers",
+        "views": "85 views",
+        "title": "Web team",
+        "entry": "Hello friends, I am Emir. I'm looking for people to design a website together. I'm taking a 'web design course' as an elective at school. I have knowledge of HTML but I have intermediate knowledge of CSS. (I'm trying to make a layout or responsive design.) I'm looking for a friend who will be interested regardless of their knowledge level.",
+        "tags": ["Web", "Code-buddy"],
+        "info": {
+            "author": "Emir",
+            "asked": "Asked 6 weeks ago",
+            "active": "Active 3 days ago"
+        }
+    },
+    {
+        "votes": "1500 votes",
+        "answers": "15 answers",
+        "views": "180k views",
+        "title": "How to set up Python environment in Visual Studio Code?",
+        "entry": "I'm having trouble setting up my Python environment in Visual Studio Code. Can someone guide me through the steps?",
+        "tags": ["Python", "VSC", "Environment"],
+        "info": {
+            "author": "Jordan P.",
+            "asked": "Asked 5 days ago",
+            "active": "Active 3 days ago"
+        }
+    },
+    {
+        "votes": "2466 votes",
+        "answers": "26 answers",
+        "views": "230k views",
+        "title": "How to create a new project in Visual Studio Code?",
+        "entry": "When I open Visual Studio Code, I don't see an option to create a new project. How do I create a new project?",
+        "tags": ["VSC", "Project"],
+        "info": {
+            "author": "Alex J.",
+            "asked": "Asked 2 days ago",
+            "active": "Active 1 day ago"
+        }
+    },
+    {
+        "votes": "457 votes",
+        "answers": "18 answers",
+        "views": "25k views",
+        "title": "Asp.Net Course",
+        "entry": "Hii guys. I currently have the 'Complete Applied Web Development Training' course from the Sadık teacher on Udemy. I need to develop a project with ASP. Do I need to take this course 'Advanced Web Development from Scratch with Asp.Net Core 8.0' or will my current course be sufficient?",
+        "tags": [".NET", "Project"],
+        "info": {
+            "author": "Osman Deniz",
+            "asked": "Asked 1 days ago",
+            "active": "Active 1 hour ago"
+        }
+    },
+    {
+        "votes": "25 votes",
+        "answers": "3 answers",
+        "views": "967 views",
+        "title": "Json file content is deleted on every restart",
+        "entry": "I am making a discord bot. I tried to save it in a json file instead of the database. I added a lot of things without paying attention, but every time I start the bot, the contents are reset. I tried to back it up to the database and transfer it to json files to prevent it from getting lost, but I couldn't do it. Where could I be making a mistake?",
+        "tags": ["Discord Bot", "Python", "Json"],
+        "info": {
+            "author": "Ömer Asaf",
+            "asked": "Asked 5 hour ago",
+            "active": "Active 12 min ago"
+        }
+    },
+    {
+        "votes": "352 votes",
+        "answers": "14 answers",
+        "views": "2765 views",
+        "title": "I Don't Know My Rockstar Games Account's Email Password xxxxxxxx",
+        "entry": "URGENT!!!!!<br>Guys, I bought RDR2 yesterday and connected a Rockstar account for GTA 3-4 years ago, but I cannot access that account now, it has disappeared, how can I solve this, please help urgently.",
+        "tags": ["Game", "Hobby"],
+        "info": {
+            "author": "Selim H.",
+            "asked": "Asked 3 days ago",
+            "active": "Active 7 hours ago"
+        }
+    },
+    {
+        "votes": "12 votes",
+        "answers": "7 answers",
+        "views": "85 views",
+        "title": "Web team",
+        "entry": "Hello friends, I am Emir. I'm looking for people to design a website together. I'm taking a 'web design course' as an elective at school. I have knowledge of HTML but I have intermediate knowledge of CSS. (I'm trying to make a layout or responsive design.) I'm looking for a friend who will be interested regardless of their knowledge level.",
+        "tags": ["Web", "Code-buddy"],
+        "info": {
+            "author": "Emir",
+            "asked": "Asked 6 weeks ago",
+            "active": "Active 3 days ago"
+        }
+    },
+    {
+        "votes": "1500 votes",
+        "answers": "15 answers",
+        "views": "180k views",
+        "title": "How to set up Python environment in Visual Studio Code?",
+        "entry": "I'm having trouble setting up my Python environment in Visual Studio Code. Can someone guide me through the steps?",
+        "tags": ["Python", "VSC", "Environment"],
+        "info": {
+            "author": "Jordan P.",
+            "asked": "Asked 5 days ago",
+            "active": "Active 3 days ago"
+        }
+    }
+]

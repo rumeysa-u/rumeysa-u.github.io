@@ -3,10 +3,10 @@
   <head>
     <title>ArtRithms</title>
     <link rel="icon" href="images/prisma.png" type="image/png">
-    <link rel="stylesheet" href="forum.css">
+    <link rel="stylesheet" href="css/forum.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="forum.js"></script>
+    <script src="js/forum.js"></script>
   </head>
   <body>
     <div class="container" id="top">
@@ -79,7 +79,6 @@
                 <div class="topicsdiv">
                     <label class="dropdownlabel">
                         TOPICS
-                        <!--<svg id="uparrow" width="20" height="20" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1023"></defs><g id="SvgjsG1024"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="none" stroke="#73466b" stroke-linecap="round" stroke-linejoin="round" d="M.5 17.5 12 6.5l11.5 11" data-name="Arrow 4 Up" class="colorStroke303c42 svgStroke"></path></svg></g></svg>-->
                         <svg id="downarrow" width="20" height="20" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1028"></defs><g id="SvgjsG1029"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="#73466b" d="M12 18a.5.5 0 0 1-.346-.138l-11.5-11a.5.5 0 0 1 .692-.723L12 16.809l11.154-10.67a.5.5 0 0 1 .692.723l-11.5 11A.5.5 0 0 1 12 18z" class="color303C42 svgShape"></path><linearGradient id="a" x1="1.021" x2="20.82" y1="4.199" y2="13.432" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d873d5" stop-opacity=".2" class="stopColorFFF svgShape"></stop><stop offset="1" stop-color="#d873d5" stop-opacity="0" class="stopColorFFF svgShape"></stop></linearGradient><path fill="url(#a)" d="M12 18a.5.5 0 0 1-.346-.138l-11.5-11a.5.5 0 0 1 .692-.723L12 16.809l11.154-10.67a.5.5 0 0 1 .692.723l-11.5 11A.5.5 0 0 1 12 18z"></path></svg></g></svg>
                     </label>
                     <p>Gaming</p>
@@ -94,7 +93,6 @@
                     <p>Web Development</p>
                     <p>Mobile Development</p>
                     <p>Game Development</p>
-                    <!--
                     <p>Artificial Intelligence</p>
                     <p>Machine Learning</p>
                     <p>Deep Learning</p>
@@ -106,14 +104,13 @@
                     <p>Big Data</p>
                     <p>IoT</p>
                     <p>DevOps</p>
-                    <p>Software Engineering</p>-->
-                    <p>See more </p>
+                    <p>Software Engineering</p>
+                    <!--<p>See more.. </p>-->
                 </div>
                 <div class="underline"></div>
                 <div class="comdiv">
                     <label class="dropdownlabel">
                         COMMUNICATION
-                        <!--<svg id="uparrow" width="20" height="20" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1023"></defs><g id="SvgjsG1024"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="none" stroke="#73466b" stroke-linecap="round" stroke-linejoin="round" d="M.5 17.5 12 6.5l11.5 11" data-name="Arrow 4 Up" class="colorStroke303c42 svgStroke"></path></svg></g></svg>-->
                         <svg id="downarrow" width="20" height="20" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1028"></defs><g id="SvgjsG1029"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="#73466b" d="M12 18a.5.5 0 0 1-.346-.138l-11.5-11a.5.5 0 0 1 .692-.723L12 16.809l11.154-10.67a.5.5 0 0 1 .692.723l-11.5 11A.5.5 0 0 1 12 18z" class="color303C42 svgShape"></path><linearGradient id="a" x1="1.021" x2="20.82" y1="4.199" y2="13.432" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d873d5" stop-opacity=".2" class="stopColorFFF svgShape"></stop><stop offset="1" stop-color="#d873d5" stop-opacity="0" class="stopColorFFF svgShape"></stop></linearGradient><path fill="url(#a)" d="M12 18a.5.5 0 0 1-.346-.138l-11.5-11a.5.5 0 0 1 .692-.723L12 16.809l11.154-10.67a.5.5 0 0 1 .692.723l-11.5 11A.5.5 0 0 1 12 18z"></path></svg></g></svg>
                     </label>
                     <p>Users</p>
@@ -139,20 +136,12 @@
                     </div>
                 </div>
                 <div id="forums">
+                    <!--   Forum items will be added here example entry:
                     <div class="forum">
                         <div class="foruminteraction">
                             <p>2466 votes</p>
                             <p id="answer">
                                 <span>
-                                    <!--
-                                    <svg id="SvgjsSvg1156" width="25" height="25" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1157"></defs>
-                                        <g id="SvgjsG1158">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 213.33 213.33" width="25" height="25">
-                                                <path fill-rule="nonzero" d="M106.67 0.01c29.45,0 56.12,11.94 75.42,31.24 19.3,19.3 31.24,45.96 31.24,75.42 0,29.45 -11.94,56.12 -31.24,75.42 -19.3,19.3 -45.97,31.24 -75.42,31.24 -29.45,0 -56.12,-11.94 -75.42,-31.24 -19.3,-19.3 -31.24,-45.96 -31.24,-75.42 0,-29.45 11.94,-56.12 31.24,-75.42 19.3,-19.3 45.97,-31.24 75.42,-31.24zm18.69 139.79c-2.44,2.44 -6.39,2.44 -8.83,0 -2.44,-2.44 -2.44,-6.4 0,-8.83l47.34 -47.35c2.44,-2.44 6.4,-2.44 8.84,0 2.44,2.44 2.44,6.4 0,8.84l-47.35 47.34zm-84.73 -28.14c-2.44,-2.44 -2.44,-6.4 0,-8.84 2.44,-2.44 6.4,-2.44 8.83,0l27.39 27.39 60.35 -60.35c2.44,-2.44 6.4,-2.44 8.84,0 2.44,2.44 2.44,6.4 0,8.84l-64.77 64.77c-2.44,2.44 -6.4,2.44 -8.84,0l-31.81 -31.81zm132.62 -71.58c-17.04,-17.04 -40.58,-27.58 -66.58,-27.58 -26,0 -49.54,10.54 -66.58,27.58 -17.04,17.04 -27.58,40.58 -27.58,66.58 0,26 10.54,49.54 27.58,66.58 17.04,17.04 40.58,27.58 66.58,27.58 26,0 49.54,-10.54 66.58,-27.58 17.04,-17.04 27.58,-40.58 27.58,-66.58 0,-26 -10.54,-49.54 -27.58,-66.58z" fill="#73466b" class="color000 svgShape"></path>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                    -->
                                 <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs><g id="SvgjsG1163"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs><g data-name="Layer 46"><path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path><path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path></g></svg></g></svg>
                                 </span>
                                 <span>26 answers</span>
@@ -179,388 +168,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="forum">
-                        <div class="foruminteraction">
-                            <p>457 votes</p>
-                            <p id="answer">
-                                <span>
-                                    <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs>
-                                        <g id="SvgjsG1163">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs>
-                                                <g data-name="Layer 46">
-                                                    <path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path>
-                                                    <path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path>
-                                                </g>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span>18 answers</span>
-                            </p>
-                            <p>25k views</p>
-                        </div>
-                        <div>
-                            <div class="forumtitle">
-                                <h3>Asp.Net Course</h3>
-                            </div>
-                            <div class="forumentry">
-                                <p>Hii guys. I currently have the "Complete Applied Web Development Training" course from the Sadık teacher on Udemy. I need to develop a project with ASP. Do I need to take this course "Advanced Web Development from Scratch with Asp.Net Core 8.0" or will my current course be sufficient?</p>
-                            </div>
-                            <div class="foruminfo">
-                                <div class="tags">
-                                    <p>.NET</p>
-                                    <p>Project</p>
-                                </div>
-                                <div class="info">
-                                    <p>Osman Deniz</p>
-                                    <p>Asked 1 days ago</p>
-                                    <p>Active 1 hour ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="forum">
-                        <div class="foruminteraction">
-                            <p>25 votes</p>
-                            <p id="answer">
-                                <span>
-                                    <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs>
-                                        <g id="SvgjsG1163">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs>
-                                                <g data-name="Layer 46">
-                                                    <path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path>
-                                                    <path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path>
-                                                </g>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span>3 answers</span>
-                            </p>
-                            <p>967 views</p>
-                        </div>
-                        <div>
-                            <div class="forumtitle">
-                                <h3>Json file content is deleted on every restart</h3>
-                            </div>
-                            <div class="forumentry">
-                                <p>I am making a discord bot. I tried to save it in a json file instead of the database. I added a lot of things without paying attention, but every time I start the bot, the contents are reset. I tried to back it up to the database and transfer it to json files to prevent it from getting lost, but I couldn't do it. Where could I be making a mistake?</p>
-                            </div>
-                            <div class="foruminfo">
-                                <div class="tags">
-                                    <p>Discord Bot</p>
-                                    <p>Python</p>
-                                    <p>Json</p>
-                                </div>
-                                <div class="info">
-                                    <p>Ömer Asaf</p>
-                                    <p>Asked 5 hour ago</p>
-                                    <p>Active 12 min ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="forum">
-                        <div class="foruminteraction">
-                            <p>352 votes</p>
-                            <p id="answer">
-                                <span>
-                                    <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs>
-                                        <g id="SvgjsG1163">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs>
-                                                <g data-name="Layer 46">
-                                                    <path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path>
-                                                    <path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path>
-                                                </g>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span>14 answers</span>
-                            </p>
-                            <p>2765 views</p>
-                        </div>
-                        <div>
-                            <div class="forumtitle">
-                                <h3>I Don't Know My Rockstar Games Account's Email Password xxxxxxxx</h3>
-                            </div>
-                            <div class="forumentry">
-                                <p>URGENT!!!!!<br>
-                                    Guys, I bought RDR2 yesterday and connected a Rockstar account for GTA 3-4 years ago, but I cannot access that account now, it has disappeared, how can I solve this, please help urgently.</p>
-                            </div>
-                            <div class="foruminfo">
-                                <div class="tags">
-                                    <p>Game</p>
-                                    <p>Hobby</p>
-                                </div>
-                                <div class="info">
-                                    <p>Selim H.</p>
-                                    <p>Asked 3 days ago</p>
-                                    <p>Active 7 hours ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="forum">
-                        <div class="foruminteraction">
-                            <p>12 votes</p>
-                            <p id="answer">
-                                <span>
-                                    <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs>
-                                        <g id="SvgjsG1163">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs>
-                                                <g data-name="Layer 46">
-                                                    <path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path>
-                                                    <path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path>
-                                                </g>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span>7 answers</span>
-                            </p>
-                            <p>85 views</p>
-                        </div>
-                        <div>
-                            <div class="forumtitle">
-                                <h3>Web team</h3>
-                            </div>
-                            <div class="forumentry">
-                                <p>Hello friends, I am Emir. I'm looking for people to design a website together. I'm taking a "web design course" as an elective at school. I have knowledge of HTML but I have intermediate knowledge of CSS. (I'm trying to make a layout or responsive design.) I'm looking for a friend who will be interested regardless of their knowledge level.</p>
-                            </div>
-                            <div class="foruminfo">
-                                <div class="tags">
-                                    <p>Web</p>
-                                    <p>Code-buddy</p>
-                                </div>
-                                <div class="info">
-                                    <p>Emir</p>
-                                    <p>Asked 6 weeks ago</p>
-                                    <p>Active 3 days ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="forum">
-                        <div class="foruminteraction">
-                            <p>2466 votes</p>
-                            <p id="answer">
-                                <span>
-                                    <!--
-                                    <svg id="SvgjsSvg1156" width="25" height="25" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1157"></defs>
-                                        <g id="SvgjsG1158">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 213.33 213.33" width="25" height="25">
-                                                <path fill-rule="nonzero" d="M106.67 0.01c29.45,0 56.12,11.94 75.42,31.24 19.3,19.3 31.24,45.96 31.24,75.42 0,29.45 -11.94,56.12 -31.24,75.42 -19.3,19.3 -45.97,31.24 -75.42,31.24 -29.45,0 -56.12,-11.94 -75.42,-31.24 -19.3,-19.3 -31.24,-45.96 -31.24,-75.42 0,-29.45 11.94,-56.12 31.24,-75.42 19.3,-19.3 45.97,-31.24 75.42,-31.24zm18.69 139.79c-2.44,2.44 -6.39,2.44 -8.83,0 -2.44,-2.44 -2.44,-6.4 0,-8.83l47.34 -47.35c2.44,-2.44 6.4,-2.44 8.84,0 2.44,2.44 2.44,6.4 0,8.84l-47.35 47.34zm-84.73 -28.14c-2.44,-2.44 -2.44,-6.4 0,-8.84 2.44,-2.44 6.4,-2.44 8.83,0l27.39 27.39 60.35 -60.35c2.44,-2.44 6.4,-2.44 8.84,0 2.44,2.44 2.44,6.4 0,8.84l-64.77 64.77c-2.44,2.44 -6.4,2.44 -8.84,0l-31.81 -31.81zm132.62 -71.58c-17.04,-17.04 -40.58,-27.58 -66.58,-27.58 -26,0 -49.54,10.54 -66.58,27.58 -17.04,17.04 -27.58,40.58 -27.58,66.58 0,26 10.54,49.54 27.58,66.58 17.04,17.04 40.58,27.58 66.58,27.58 26,0 49.54,-10.54 66.58,-27.58 17.04,-17.04 27.58,-40.58 27.58,-66.58 0,-26 -10.54,-49.54 -27.58,-66.58z" fill="#73466b" class="color000 svgShape"></path>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                    -->
-                                <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs><g id="SvgjsG1163"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs><g data-name="Layer 46"><path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path><path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path></g></svg></g></svg>
-                                </span>
-                                <span>26 answers</span>
-                            </p>
-                            <p>230k views</p>
-                        </div>
-                        <div>
-                            <div class="forumtitle">
-                                <h3>How to create a new project in Visual Studio Code?</h3>
-                            </div>
-                            <div class="forumentry">
-                                <p>When I open Visual Studio Code, I don't see an option to create a new project. How do I create a new project?</p>
-                            </div>
-                            <div class="foruminfo">
-                                <div class="tags">
-                                    <p>VSC</p>
-                                    <p>Project</p>
-                                </div>
-                                <div class="info">
-                                    <p>Alex J.</p>
-                                    <p>Asked 2 days ago</p>
-                                    <p>Active 1 day ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="forum">
-                        <div class="foruminteraction">
-                            <p>457 votes</p>
-                            <p id="answer">
-                                <span>
-                                    <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs>
-                                        <g id="SvgjsG1163">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs>
-                                                <g data-name="Layer 46">
-                                                    <path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path>
-                                                    <path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path>
-                                                </g>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span>18 answers</span>
-                            </p>
-                            <p>25k views</p>
-                        </div>
-                        <div>
-                            <div class="forumtitle">
-                                <h3>Asp.Net Course</h3>
-                            </div>
-                            <div class="forumentry">
-                                <p>Hii guys. I currently have the "Complete Applied Web Development Training" course from the Sadık teacher on Udemy. I need to develop a project with ASP. Do I need to take this course "Advanced Web Development from Scratch with Asp.Net Core 8.0" or will my current course be sufficient?</p>
-                            </div>
-                            <div class="foruminfo">
-                                <div class="tags">
-                                    <p>.NET</p>
-                                    <p>Project</p>
-                                </div>
-                                <div class="info">
-                                    <p>Osman Deniz</p>
-                                    <p>Asked 1 days ago</p>
-                                    <p>Active 1 hour ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="forum">
-                        <div class="foruminteraction">
-                            <p>25 votes</p>
-                            <p id="answer">
-                                <span>
-                                    <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs>
-                                        <g id="SvgjsG1163">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs>
-                                                <g data-name="Layer 46">
-                                                    <path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path>
-                                                    <path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path>
-                                                </g>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span>3 answers</span>
-                            </p>
-                            <p>967 views</p>
-                        </div>
-                        <div>
-                            <div class="forumtitle">
-                                <h3>Json file content is deleted on every restart</h3>
-                            </div>
-                            <div class="forumentry">
-                                <p>I am making a discord bot. I tried to save it in a json file instead of the database. I added a lot of things without paying attention, but every time I start the bot, the contents are reset. I tried to back it up to the database and transfer it to json files to prevent it from getting lost, but I couldn't do it. Where could I be making a mistake?</p>
-                            </div>
-                            <div class="foruminfo">
-                                <div class="tags">
-                                    <p>Discord Bot</p>
-                                    <p>Python</p>
-                                    <p>Json</p>
-                                </div>
-                                <div class="info">
-                                    <p>Ömer Asaf</p>
-                                    <p>Asked 5 hour ago</p>
-                                    <p>Active 12 min ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="forum">
-                        <div class="foruminteraction">
-                            <p>352 votes</p>
-                            <p id="answer">
-                                <span>
-                                    <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs>
-                                        <g id="SvgjsG1163">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs>
-                                                <g data-name="Layer 46">
-                                                    <path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path>
-                                                    <path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path>
-                                                </g>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span>14 answers</span>
-                            </p>
-                            <p>2765 views</p>
-                        </div>
-                        <div>
-                            <div class="forumtitle">
-                                <h3>I Don't Know My Rockstar Games Account's Email Password xxxxxxxx</h3>
-                            </div>
-                            <div class="forumentry">
-                                <p>URGENT!!!!!<br>
-                                    Guys, I bought RDR2 yesterday and connected a Rockstar account for GTA 3-4 years ago, but I cannot access that account now, it has disappeared, how can I solve this, please help urgently.</p>
-                            </div>
-                            <div class="foruminfo">
-                                <div class="tags">
-                                    <p>Game</p>
-                                    <p>Hobby</p>
-                                </div>
-                                <div class="info">
-                                    <p>Selim H.</p>
-                                    <p>Asked 3 days ago</p>
-                                    <p>Active 7 hours ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="forum">
-                        <div class="foruminteraction">
-                            <p>12 votes</p>
-                            <p id="answer">
-                                <span>
-                                    <svg id="SvgjsSvg1161" width="30" height="30" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1162"></defs>
-                                        <g id="SvgjsG1163">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="35" height="35"><defs><linearGradient id="a" x1="4.5" x2="27.5" y1="16" y2="16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6699" class="stopColor15ffee svgShape"></stop><stop offset="1" stop-color="#d873d5" class="stopColor73c3ff svgShape"></stop></linearGradient><linearGradient id="b" x1="11.1" x2="20.9" xlink:href="#a"></linearGradient></defs>
-                                                <g data-name="Layer 46">
-                                                    <path fill="url(#a)" d="M16,4.5A11.5,11.5,0,1,0,27.5,16,11.5131,11.5131,0,0,0,16,4.5Zm0,22A10.5,10.5,0,1,1,26.5,16,10.5118,10.5118,0,0,1,16,26.5Z"></path>
-                                                    <path fill="url(#b)" d="M20.0156,12.38l-5.1494,6.18-2.9126-2.9131a.5.5,0,0,0-.707.707l3.3,3.3A.5.5,0,0,0,14.9,19.8l.0225-.001a.5.5,0,0,0,.3618-.1787l5.5-6.6a.5.5,0,0,0-.7686-.6406Z"></path>
-                                                </g>
-                                            </svg>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span>7 answers</span>
-                            </p>
-                            <p>85 views</p>
-                        </div>
-                        <div>
-                            <div class="forumtitle">
-                                <h3>Web team</h3>
-                            </div>
-                            <div class="forumentry">
-                                <p>Hello friends, I am Emir. I'm looking for people to design a website together. I'm taking a "web design course" as an elective at school. I have knowledge of HTML but I have intermediate knowledge of CSS. (I'm trying to make a layout or responsive design.) I'm looking for a friend who will be interested regardless of their knowledge level.</p>
-                            </div>
-                            <div class="foruminfo">
-                                <div class="tags">
-                                    <p>Web</p>
-                                    <p>Code-buddy</p>
-                                </div>
-                                <div class="info">
-                                    <p>Emir</p>
-                                    <p>Asked 6 weeks ago</p>
-                                    <p>Active 3 days ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    -->
                 </div>
-                <div class="pagination">
-                    <div class="left">
-                        <button id="first">1</button>
-                        <button id="second">2</button>
-                        <button id="third">3</button>
-                        <button id="fourth">4</button>
-                        <button id="fifth">5</button>
-                        <span>...</span>
-                        <button>4854</button>
-                        <button>Next</button> 
-                    </div>   
-                    <div>
-                        <button id="five">5</button>
-                        <button id="ten">10</button>
-                        <button id="fifteen">15</button>
-                        <span>per page</span>
-                    </div>
+                <div id="pagination" class="pagination">
+                </div>
+                <div id="itemsPerPageDropdownContainer">
+                    <!-- Dropdown menu will be added here -->
                 </div>
             </div>
             <div id="rightdiv">

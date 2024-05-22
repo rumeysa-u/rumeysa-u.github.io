@@ -1,16 +1,16 @@
 @font-face {
     font-family: Coashela;
-    src: url('fonts/Coashela Notes.otf');
+    src: url('../fonts/Coashela Notes.otf');
 }
 
 @font-face {
     font-family: Dejavu;
-    src: url('fonts/DejaVuSansMono.ttf');
+    src: url('../fonts/DejaVuSansMono.ttf');
 }
 
 @font-face {
     font-family: Dense;
-    src: url('fonts/dense_regular.otf');
+    src: url('../fonts/dense_regular.otf');
 }
 
 
@@ -170,7 +170,7 @@ main h1{
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url('images/DS18_2016_17_ Monsoon Assemblages Chennai, Brief 1_  Hydrological Prototype.jpeg');
+    background-image: url('../images/DS18_2016_17_ Monsoon Assemblages Chennai, Brief 1_  Hydrological Prototype.jpeg');
     position: absolute;
     top: 45%;
     left: 50%;
